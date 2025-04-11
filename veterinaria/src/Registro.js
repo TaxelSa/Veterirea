@@ -26,7 +26,7 @@ function RegistroMascota() {
     };
 
     try {
-      const respuesta = await fetch("http://localhost/mascotas-react/veterinaria/php/registro.php", {
+      const respuesta = await fetch("http://localhost/veterirea/veterinaria/php/registro.php", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(datos),

@@ -21,7 +21,7 @@ function Baño() {
       const params = new URLSearchParams();
       params.append("razas", razaSeleccionada);
 
-      const respuesta = await fetch("http://localhost/mascotas-react/veterinaria/php/control.php", {
+      const respuesta = await fetch("http://localhost/veterirea/veterinaria/php/control.php", {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
