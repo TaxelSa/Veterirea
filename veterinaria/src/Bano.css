@@ -1,0 +1,22 @@
+.header {
+  background: #435e78;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.contenido {
+  padding: 20px;
+}
+
+.mensaje {
+  color: red;
+  margin-top: 10px;
+}
+
+.resultado {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+}
